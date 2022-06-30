@@ -6,8 +6,8 @@ import 'package:zoom_clone/screens/meeting_screen.dart';
 import 'package:zoom_clone/utilities/colors.dart';
 
 void main() async {
-  await Firebase.initializeApp();
   WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
